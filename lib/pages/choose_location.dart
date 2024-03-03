@@ -11,11 +11,6 @@ class _ChooseLocationState extends State<ChooseLocation> {
   int counter = 0;
 
   @override
-  void initState() {
-    super.initState();
-  }
-
-  @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[200],
